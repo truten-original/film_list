@@ -29,6 +29,7 @@
     }
   },
   "rules": {
+   "arrow-body-style": ["error", "as-needed"],
     "import/prefer-default-export": "off",
     "default-param-last": "off",
     "react/function-component-definition": "off",
@@ -40,6 +41,10 @@
     "jsx-a11y/no-noninteractive-element-interactions": "off",
     "no-param-reassign": "off",
     "global-require": "off",
-    "import/no-dynamic-require": "off"
+    "import/no-dynamic-require": "off",
+    "react/self-closing-comp": ["error", {
+      "component": false,
+      "html": false
+    }]
   }
 }
